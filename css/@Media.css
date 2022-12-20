@@ -1,5 +1,55 @@
-@media screen {}
+@media screen and (max-width:768px) {
+    .lessons>.container {
+        width: 768px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+}
 
-@media screen {}
+@media screen and (max-width:768px) {
+    .steps>.container {
+        width: 768px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+}
 
-@media screen {}
+@media screen and (max-width:768px) {
+    .why-us>.container {
+        width: 768px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+}
+
+
+
+
+@media screen and (max-width:480px) {
+    .lessons>.container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 480px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .steps>.container {
+        width: 480px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .why-us>.container {
+        width: 480px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    /* .row {
+        flex-direction: column;
+    } */
+
+}
